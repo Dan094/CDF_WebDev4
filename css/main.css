@@ -1,0 +1,140 @@
+/* Home page */
+
+* {
+    font-family: 'Raleway';
+    margin:0;
+    padding:0;
+    transition:all ease 100ms;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* nav bar */
+
+.nav {
+    position:fixed;
+    width:100%;
+    z-index: 2;
+    font-size:1.2rem;
+    color:white;
+    font-weight:300;
+    padding:2rem; 
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.92) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.menuItems {
+    font-size:1.2rem;
+     padding:2rem;
+}
+
+.btn  {
+ background-color:#F3A530;;
+}
+
+.scrollsection {
+    position:relative;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width:100%; 
+    margin-top:10rem;
+    color:white;
+}
+
+.scrollbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.scrollbox h5 {
+    color:white;
+}
+
+
+/* Main page section div */
+
+.sec {
+    width:100vw;
+    height:100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+}
+
+/* individual styling for page section div */
+
+#section1 {
+    background-image: url('../images/home_bg.png');
+    position: relative;
+    top:0;
+}
+
+#section2  {
+    background-image: url('../images/bg2.jpg');
+    background-attachment:scroll;
+    background-size: contain;
+}
+
+#section3  {
+    background-image: url('../images/TFyi0QOx08c.jpg');
+    background-attachment:scroll;
+}
+
+.home_bg {
+    background-image: url(../images/home_bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+}
+
+
+.bigtxt {
+    font-weight:bold;
+    color:white;
+}
+
+.secTitle {
+    color: #75704B;
+    font-family: 'Raleway Black';
+    font-size:3rem;
+    margin-bottom:5rem;
+}
+
+
+/* post */
+
+.post {
+    width:30rem;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+    margin:2rem;
+}
+
+.desp {
+    background-color:#A8B66E; 
+    color:white;
+    padding:2rem;
+}
+
+.title {
+    font-family: 'Raleway Black';
+    font-style: normal;
+}
+
+.readmoreBtn {
+    font-family: 'Raleway Bold';
+    text-align: right;
+    color: #75704B;
+    
+}
