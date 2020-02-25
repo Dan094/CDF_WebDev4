@@ -120,24 +120,26 @@ html {
 
 /* post */
 
+
 .post {
-    width:30rem;
+    width:20rem;
     display:flex;
     flex-direction:column;
     box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
     margin:2rem;
+    flex:1;
 }
 
 .desp {
     background-color:#A8B66E; 
     color:white;
     padding:2rem;
-    width: 500px;
+    width: 25rem;
 }
 
 .title {
     font-family: 'Raleway';
-    font-style: normal;
+    font-weight:300;
 }
 
 .readmoreBtn {
@@ -158,7 +160,7 @@ html {
 }
 
 .badgesCont {
-    width:60%;
+    width:50%;
 }
 
 .badge {
@@ -179,6 +181,9 @@ html {
 
 .sliderCont{
     overflow-x: scroll;
+    display: flex; 
+    flex-direction: row; 
+     width: 100vw; 
 }
 
 .hoverable{
