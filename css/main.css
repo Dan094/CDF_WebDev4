@@ -89,6 +89,11 @@ html {
     background-attachment:scroll;
 }
 
+#section4  {
+    background-image: url('../images/bg3.png');
+    background-attachment:scroll;
+}
+
 .home_bg {
     background-image: url(../images/home_bg.png);
     background-size:cover;
@@ -105,7 +110,7 @@ html {
 
 .secTitle {
     color: #75704B;
-    font-family: 'Raleway Black';
+    font-family: 'Raleway';
     font-size:3rem;
     margin-bottom:5rem;
 }
@@ -128,7 +133,7 @@ html {
 }
 
 .title {
-    font-family: 'Raleway Black';
+    font-family: 'Raleway';
     font-style: normal;
 }
 
@@ -138,3 +143,32 @@ html {
     color: #75704B;
     
 }
+
+.badgebox {
+    padding:1rem;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.badgesCont {
+    width:60%;
+}
+
+.badge {
+    flex:1; 
+    padding:3rem;
+    background-color:#342624; 
+    border-radius:100px;
+}
+
+.badgebox h6 {
+    font-size: 1.5rem;
+    color:white;
+    font-weight:600;
+    text-align: center;
+    margin:2rem;
+}
+
