@@ -125,10 +125,11 @@ html {
     background-color:#A8B66E; 
     color:white;
     padding:2rem;
+    width: 500px;
 }
 
 .title {
-    font-family: 'Raleway Black';
+    font-family: 'Raleway';
     font-style: normal;
 }
 
@@ -137,4 +138,13 @@ html {
     text-align: right;
     color: #75704B;
     
+}
+
+.sliderCont{
+    overflow-x: scroll;
+}
+
+.hoverable{
+    margin: 20px;
+    width: 500px;
 }
