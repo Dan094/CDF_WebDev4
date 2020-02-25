@@ -112,7 +112,6 @@ html {
 
 .secTitle {
     color: #75704B;
-    font-family: 'Raleway Black';
     font-family: 'Raleway';
     font-size:3rem;
     margin-bottom:5rem;
@@ -148,6 +147,7 @@ html {
     
 }
 
+
 .badgebox {
     padding:1rem;
     flex:1;
@@ -176,6 +176,7 @@ html {
     margin:2rem;
 }
 
+
 .sliderCont{
     overflow-x: scroll;
 }
@@ -184,3 +185,4 @@ html {
     margin: 20px;
     width: 500px;
 }
+
