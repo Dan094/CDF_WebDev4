@@ -27,6 +27,7 @@ html {
 }
 
 
+
 .menuItems {
     font-size:1.2rem;
      padding:2rem;
@@ -59,6 +60,7 @@ html {
 
 
 /* Main page section div */
+
 
 .sec {
     width:100vw;
@@ -110,6 +112,7 @@ html {
 
 .secTitle {
     color: #75704B;
+    font-family: 'Raleway Black';
     font-family: 'Raleway';
     font-size:3rem;
     margin-bottom:5rem;
@@ -130,6 +133,7 @@ html {
     background-color:#A8B66E; 
     color:white;
     padding:2rem;
+    width: 500px;
 }
 
 .title {
@@ -172,3 +176,11 @@ html {
     margin:2rem;
 }
 
+.sliderCont{
+    overflow-x: scroll;
+}
+
+.hoverable{
+    margin: 20px;
+    width: 500px;
+}
