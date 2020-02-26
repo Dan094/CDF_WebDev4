@@ -4270,9 +4270,9 @@ table span.badge {
 }
 
 nav {
-
+  padding:20rem;
   width: 100%;
-  height: 56px;
+  height: 20rem;
   line-height: 56px;
 
 }
