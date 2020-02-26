@@ -147,12 +147,14 @@ html {
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
+    overflow: hidden;
 }
 
 #section4  {
     background-image: url('../images/bg3.png');
     background-attachment:scroll;
     background-attachment: fixed;
+    width: 100vw;
 }
 
 .home_bg {
@@ -161,6 +163,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height:100vh;
+    width: 100vw;
 }
 
 
@@ -225,6 +228,8 @@ html {
      width: 100vw; 
      padding:3rem;
 }
+
+
 
 .hoverable{
     margin: 20px;
