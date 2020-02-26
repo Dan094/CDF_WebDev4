@@ -12,9 +12,12 @@ html {
 }
 
 .navColor {
-    background-color: #1f1f1f;
-    box-shadow:0;
+    background-color: #1f1f1f00;
+    box-shadow:none;
+    
 }
+
+
 
 
 
@@ -28,14 +31,15 @@ html {
     color:white;
     font-weight:300;
     padding:2rem; 
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.92) 0%, rgba(0, 0, 0, 0) 100%);
+    
 }
 
-
+#nav {background-color: none;}
 
 .menuItems {
     font-size:1.2rem;
      padding:2rem;
+     /* background-color: #3c3c3c00; */
 }
 
 .btn  {
@@ -81,7 +85,7 @@ html {
     float:left; 
     width:30%; 
     height: 100vh;
-    background-color:#3A3438;  
+    background-color:#434831;  
     padding:2rem; 
     display: flex; 
     flex-direction: column;
@@ -145,7 +149,7 @@ html {
 #section4  {
     background-image: url('../images/bg3.png');
     background-attachment:scroll;
-
+    background-attachment: fixed;
 }
 
 .home_bg {
@@ -276,4 +280,14 @@ html {
 
 .collapsible-body {
     text-align: center;
+}
+
+/* Services */
+
+.collapsible-body {
+    background-color: white;
+}
+
+.collapsible-header {
+    background-color:#A8B66E; 
 }
