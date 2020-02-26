@@ -4,11 +4,16 @@
     font-family: 'Raleway';
     margin:0;
     padding:0;
-    transition:all ease 100ms;
+    /* transition: all .2s ease-in-out; */
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.navColor {
+    background-color: #1f1f1f;
+    box-shadow:0;
 }
 
 
@@ -47,6 +52,7 @@ html {
     color:white;
 }
 
+
 .scrollbox {
     display: flex;
     flex-direction: column;
@@ -59,12 +65,52 @@ html {
 }
 
 
+/* about us slide */
+
+.aboutus {
+    width:100vw;
+     height: 100vh; 
+     position:fixed;
+    top:0; 
+    z-index:2; 
+    margin-left:-200rem;
+    transition: all 200ms ease-in-out;
+}
+
+.aboutusCont {
+    float:left; 
+    width:30%; 
+    height: 100vh;
+    background-color:#3A3438;  
+    padding:2rem; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    padding:10rem 2rem 0rem 2rem;
+    
+}
+
+.aboutustxt {
+    color:#DAFF40; 
+    font-size:1.2rem;
+     margin-top:10rem;
+     text-align: center;
+}
+
+.aboutusEmpty {
+    flex:5; 
+    height: 100vh; 
+     padding:2rem;
+   
+}
+
+
+
 /* Main page section div */
 
 
 .sec {
     width:100vw;
-    height:100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,17 +129,23 @@ html {
 #section2  {
     background-image: url('../images/bg2.jpg');
     background-attachment:scroll;
-    background-size: contain;
+    background-size: cover;
+    height:80vh;
+
 }
 
 #section3  {
-    background-image: url('../images/TFyi0QOx08c.jpg');
+    /* background-color:#3c3c3c; */
+    /* background-image: url('../images/TFyi0QOx08c.jpg'); */
     background-attachment:scroll;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #section4  {
     background-image: url('../images/bg3.png');
     background-attachment:scroll;
+
 }
 
 .home_bg {
@@ -111,35 +163,42 @@ html {
 }
 
 .secTitle {
-    color: #75704B;
+    color:#75704B;
     font-family: 'Raleway';
     font-size:3rem;
-    margin-bottom:5rem;
+    /* margin-bottom:5rem; */
+    font-weight:700;
+    margin: 20rem 0rem 0rem 20rem;
+    
 }
 
 
-/* post */
-
+/* post/news  - SECTION */
 
 .post {
     width:20rem;
     display:flex;
     flex-direction:column;
-    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
     margin:2rem;
     flex:1;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+}
+
+.post:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
 }
 
 .desp {
     background-color:#A8B66E; 
     color:white;
-    padding:2rem;
     width: 25rem;
+    padding:2rem;
 }
 
 .title {
     font-family: 'Raleway';
-    font-weight:300;
+    font-weight:700;
 }
 
 .readmoreBtn {
@@ -149,6 +208,25 @@ html {
     
 }
 
+
+.sliderCont{
+    overflow-x: scroll;
+    overflow: -moz-scrollbars-none; 
+    -ms-overflow-style: none;
+    display: flex; 
+    flex-direction: row; 
+     width: 100vw; 
+     padding:3rem;
+}
+
+.hoverable{
+    margin: 20px;
+    width: 500px;
+}
+
+
+
+/* What we do - SECTION */
 
 .badgebox {
     padding:1rem;
@@ -170,6 +248,8 @@ html {
     border-radius:100px;
 }
 
+
+
 .badgebox h6 {
     font-size: 1.5rem;
     color:white;
@@ -179,15 +259,21 @@ html {
 }
 
 
-.sliderCont{
-    overflow-x: scroll;
-    display: flex; 
-    flex-direction: row; 
-     width: 100vw; 
+
+.collapsible-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:1.5rem;
+    font-weight:700;
+    color:#F3A530;
 }
 
-.hoverable{
-    margin: 20px;
-    width: 500px;
+.collapsible-header  i > img {
+    right:10rem;
 }
 
+.collapsible-body {
+    text-align: center;
+}
