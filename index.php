@@ -120,13 +120,13 @@
                                          </div>
 
 
-                                        <div class="post col s2" data-aos="fade-left" data-aos-duration="1000">
-                                        <div style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                                        <a href="#contentModal" class="modal-trigger"><img src="images/createBtn.svg" width="100px" ></a>
-                                                        <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News or Event</h4>
-                                        </div>
+                                        
+                                                <div class="addCont col s2" data-aos="fade-left" data-aos-duration="1000" style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 150px;" >
+                                                                <a href="#contentModal" class="modal-trigger"><img src="images/createBtn.svg"  ></a>
+                                                                <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News or Event</h4>
+                                                </div>
                                                 
-                                        </div>
+                                       
                                          <div id="contentModal" class="modal">
                                         
                                          <div class="modal-content">
