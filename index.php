@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $url = dirname($_SERVER['PHP_SELF']);?>
 <html>
         <head>
                 <link href="./css/main.css" rel="stylesheet">
@@ -7,7 +8,8 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
+              
+                <script>var url = "<?php echo $url?>"</script>
                  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         </head>
@@ -92,7 +94,11 @@
                                                  <h2 class="secTitle" style="margin:5rem 0rem 0rem 0rem; padding:0rem; text-align: center;">News & Events</h2>
                                          </div>
                                  <div class="sliderCont ">
+<<<<<<< HEAD:index.html
                                          <div class="post hoverable"  data-aos="fade-left" >
+=======
+                                      <!--<div class="post hoverable"  style="margin-left:15rem;" data-aos="fade-left" >
+>>>>>>> origin/shermanchong:index.php
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -189,9 +195,9 @@
                                                             <h6>Read More</h6>
                                                          </a>
                                                  </div>
-                                         </div>
+                                         </div> -->
                                          
-                                 </div>
+                                 </div> 
                                  <div class="col"></div>
                         </div>
                         
@@ -426,9 +432,13 @@
                 </div>
         </footer>
 
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="<?php echo $url?>/js/php.js"></script>
+
                 <script>
                 AOS.init({
                         duration: 1000,
