@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<?php $url = dirname($_SERVER['PHP_SELF']);?>
+
 <html>
         <head>
                 <link href="./css/main.css" rel="stylesheet">
@@ -7,6 +10,9 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+                <script>var url = "<?php echo $url?>"</script>
+
                  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -92,6 +98,7 @@
                                          </div>
                                  <div class="sliderCont ">
 
+
                                         <div class="post " data-aos="fade-left" data-aos-duration="1000">
                                                 <div style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
                                                                 <a href="#"><img src="images/createBtn.svg" width="100px" ></a>
@@ -99,6 +106,20 @@
                                                 </div>
                                                      
                                                 </div>
+
+                                         <div class="post hoverable"  data-aos="fade-left" >
+
+                                                 <img class="img" src="images/post_img.jpg" width="100%" >
+                                                 <div class="desp">
+                                                         <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
+                                                         <p>We are celebrating the arrival of a new baby North Atlantic whale after it was spotted with ...</p>
+                                                         <a href="#" class="readmoreBtn">
+                                                            <h6>Read More</h6>
+                                                         </a>
+                                                 </div>
+                                         </div>
+
+
                                          
                                          <div class="post hoverable" data-aos="fade-left" data-aos-duration="1000">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
@@ -186,9 +207,15 @@
                                                             <h6>Read More</h6>
                                                          </a>
                                                  </div>
+
                                          </div>
                                          
                                  </div>
+
+                                         </div> -->
+                                         
+                                 </div> 
+
                                  <div class="col"></div>
                         </div>
                         
@@ -391,9 +418,15 @@
                 </div>
         </footer>
 
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="<?php echo $url?>/js/php.js"></script>
+
+
                 <script>
                 AOS.init({
                         duration: 1000,
