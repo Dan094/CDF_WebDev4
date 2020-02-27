@@ -2,6 +2,7 @@
 
 <?php $url = dirname($_SERVER['PHP_SELF']);?>
 
+
 <html>
         <head>
                 <link href="./css/main.css" rel="stylesheet">
@@ -10,8 +11,10 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  
+
+
                 <script>var url = "<?php echo $url?>"</script>
+
 
                  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,6 +41,32 @@
         </nav>
 
         <div id="modal1" class="modal">
+
+                        <div class="modal-content" style="display:flex; justify-content: center; align-items: center; flex-direction: column;">
+                          <h4>login</h4>
+                          <div class="row">
+                                        <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                              <input id="email" type="email" class="validate">
+                                              <label for="email">Email</label>
+                                            </div>
+                                          </div>
+                                          <div class="row">
+                                            <div class="input-field col s12">
+                                              <input id="password" type="password" class="validate">
+                                              <label for="password">Password</label>
+                                            </div>
+                                          </div>
+                                         
+                                          
+                                          </div>
+                                        </form>
+                                      </div>
+                        </div>
+
+                       
+
                         <div class="modal-content" style="justify-content: center;">
                           <h4>login</h4>
                           <p>A bunch of text</p>
@@ -45,6 +74,7 @@
                         <div class="modal-footer">
                           <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
                         </div>
+
         </div>
         
         <div class="sec heroimg" id="section1" style="height:100vh;">
@@ -107,17 +137,6 @@
                                                      
                                                 </div>
 
-                                         <div class="post hoverable"  data-aos="fade-left" >
-
-                                                 <img class="img" src="images/post_img.jpg" width="100%" >
-                                                 <div class="desp">
-                                                         <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
-                                                         <p>We are celebrating the arrival of a new baby North Atlantic whale after it was spotted with ...</p>
-                                                         <a href="#" class="readmoreBtn">
-                                                            <h6>Read More</h6>
-                                                         </a>
-                                                 </div>
-                                         </div>
 
 
                                          
@@ -212,9 +231,16 @@
                                          
                                  </div>
 
+                          
+
+                                         </div>
+                                         
+                                 </div>
+
                                          </div> -->
                                          
                                  </div> 
+
 
                                  <div class="col"></div>
                         </div>
@@ -313,7 +339,11 @@
                                                                                 </div>
                                                                                 
                                                                         </div>
+
+                                                                        <div class="row">
+
                                                                         <div>
+
                                                                                 <div class="input-field col s10">
                                                                                 <input placeholder="Last Name" id="last_name" type="text" class="validate">
                                                                                 <label for="last_name">Last Name</label>
@@ -418,13 +448,12 @@
                 </div>
         </footer>
 
-
-
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="<?php echo $url?>/js/php.js"></script>
+
 
 
                 <script>
