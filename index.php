@@ -68,10 +68,7 @@
 
                        
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 9d4b24349099103770b64059402b0fb12157d8e1
 
         </div>
         
@@ -346,12 +343,9 @@
                                                                         </div>
 
                                                                         <div class="row">
-<<<<<<< HEAD
 
                                         
 
-=======
->>>>>>> 9d4b24349099103770b64059402b0fb12157d8e1
                                                                                 <div class="input-field col s10">
                                                                                 <input  id="last_name" type="text" class="validate">
                                                                                 <label for="last_name">Last Name</label>
