@@ -7,9 +7,9 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
                  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         </head>
 
   <body style="overflow-x: hidden;">
@@ -24,10 +24,22 @@
                         <li><a href="Index.html#section5">Services</a></li>
                         <li><a href="Index.html#section3">News</a></li>
                         <li><a href="collapsible.html">Contact</a></li>
-                        <li><a href="mobile.html" class="waves-effect waves-light btn-large" style="background-color: rgb(181, 211, 61);font-weight:bold;">Login</a></li>
+                        <li><a  class="waves-effect waves-light btn-large waves-effect waves-light btn modal-trigger" data-target="modal1" class="btn modal-trigger" id="loginBtn" style="background-color: rgb(181, 211, 61);font-weight:bold;">Login</a></li>
                         </ul>
                 </div>
+
+                
         </nav>
+
+        <div id="modal1" class="modal">
+                        <div class="modal-content" style="justify-content: center;">
+                          <h4>login</h4>
+                          <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+        </div>
         
         <div class="sec heroimg" id="section1" style="height:100vh;">
                 <div class="container" > 
@@ -69,20 +81,7 @@
                
      
         
-        <!-- <div class="sec" id="section2" >
-                <div class="container" style="margin-top:10rem;">
-                        <div class="row">
-                                <div class="col s10 m6 l5">
-                                        <img src="./images/Mask Group.jpg" class="img1" width="100%">
-                                </div>
-                                <div class="col l2"></div>
-                                <div class="col s12 m10 l5" style="margin-top:8rem;font-weight: bold;">
-                                        <h4>Our mission is to conserve and inspire the conservation of Canada’s wildlife and habitats for the use and enjoyment of all. We believe this is important to you too.</h4>
-                                </div>
-                        </div>
-                </div>
-
-        </div> -->
+   
 
         <div class="sec" id="section3" style="height:auto;">
 
@@ -92,16 +91,14 @@
                                                  <h2 class="secTitle" style="margin:5rem 0rem 0rem 0rem; padding:0rem; text-align: center;">News & Events</h2>
                                          </div>
                                  <div class="sliderCont ">
-                                         <div class="post hoverable"  data-aos="fade-left" >
-                                                 <img class="img" src="images/post_img.jpg" width="100%" >
-                                                 <div class="desp">
-                                                         <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
-                                                         <p>We are celebrating the arrival of a new baby North Atlantic whale after it was spotted with ...</p>
-                                                         <a href="#" class="readmoreBtn">
-                                                            <h6>Read More</h6>
-                                                         </a>
-                                                 </div>
-                                         </div>
+
+                                        <div class="post " data-aos="fade-left" data-aos-duration="1000">
+                                                <div style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                                                                <a href="#"><img src="images/createBtn.svg" width="100px" ></a>
+                                                                <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News or Event</h4>
+                                                </div>
+                                                     
+                                                </div>
                                          
                                          <div class="post hoverable" data-aos="fade-left" data-aos-duration="1000">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >

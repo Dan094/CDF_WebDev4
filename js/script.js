@@ -70,3 +70,19 @@ function scrollFunction() {
 $(document).ready(function() {
   $('input#input_text, textarea#textarea2').characterCounter();
 });
+
+
+// Signup modal initaling
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.modal');
+  var instances = M.Modal.init(elems, options);
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+  $('.modal').modal();
+});
+      
