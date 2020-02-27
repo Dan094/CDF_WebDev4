@@ -67,13 +67,7 @@
 
                        
 
-                        <div class="modal-content" style="justify-content: center;">
-                          <h4>login</h4>
-                          <p>A bunch of text</p>
-                        </div>
-                        <div class="modal-footer">
-                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-                        </div>
+                       
 
         </div>
         
@@ -237,7 +231,7 @@
                                          
                                  </div>
 
-                                         </div> -->
+                                         </div> 
                                          
                                  </div> 
 
@@ -463,3 +457,6 @@
                 </script>
   </body>
 </html>
+
+
+
