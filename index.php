@@ -264,7 +264,7 @@
         
         </div>
 
-        <div class="sec"  style="height:120vh; width:100vw; margin-top:8rem; background-color: #A8B66E; border:none;" id="section4" >
+        <div class="sec"  style="height:150vh; width:100vw; background-color: #A8B66E; border:none;" id="section4" >
                         <div class="col s12" style="padding: 5rem 0rem 2rem; ">
                                         <h2 class="secTitle" style="margin:5rem 0rem 0rem 0rem; padding:0rem; text-align: center;" id="section5">What we do</h2>
                                 </div>
@@ -306,7 +306,7 @@
                                 <div class="col s12">
 
                                         <div class="col s6" style="margin-top: 5%;">
-                                                        <h2> Contact Us</h2>
+                                                        <h3><b> Contact Us </b></h3>
                                                         <p>
                                                                 Our regular business hours are Monday to Friday, 8am to 5pm ET.
                                                                 <br><br>
@@ -393,24 +393,24 @@
                                         </p>
                                         <br><br>
                                         <h5><b>Connect With Us!</b></h5>
-                                        <div class="col s10" >
+                                        <div class="col s12" >
                                                 <a href="https://www.facebook.com/CanadianWildlifeFederation/" target="_blank">
-                                                        <img src="images/icon_fb.png" width="50px" style="margin: 10px"> 
+                                                        <img src="images/icon_fb.png" width="40px" style="margin: 10px"> 
                                                 </a>
                                                 <a href="https://twitter.com/cwf_fcf" target="_blank">
-                                                        <img src="images/icon_tw.png" width="50px" style="margin: 10px">
+                                                        <img src="images/icon_tw.png" width="40px" style="margin: 10px">
                                                 </a>
                                                 <a href="https://www.instagram.com/cwf_fcf/" target="_blank">
-                                                        <img src="images/icon_ig.png"  width="50px" style="margin: 10px">
+                                                        <img src="images/icon_ig.png"  width="40px" style="margin: 10px">
                                                 </a>
                                                 <a href="https://www.pinterest.ca/cwf/" target="_blank">
-                                                         <img src="images/icon_p.png" width="50px" style="margin: 10px">
+                                                         <img src="images/icon_p.png" width="40px" style="margin: 10px">
                                                 </a>
                                                 <a href="https://www.youtube.com/user/CanadianWildlifeFed" target="_blank">
-                                                        <img src="images/icon_yt.png" width="50px" style="margin: 10px">
+                                                        <img src="images/icon_yt.png" width="40px" style="margin: 10px">
                                                 </a>
                                                 <a href="http://blog.cwf-fcf.org/index.php/en/" target="_blank">
-                                                        <img src="images/icon_wp.png" width="50px" style="margin: 10px">
+                                                        <img src="images/icon_wp.png" width="40px" style="margin: 10px">
                                                 </a>
 
                                         </div>
