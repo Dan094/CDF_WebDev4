@@ -4,12 +4,20 @@
     font-family: 'Raleway';
     margin:0;
     padding:0;
-    transition:all ease 100ms;
+    /* transition: all .2s ease-in-out; */
 }
 
 html {
     scroll-behavior: smooth;
 }
+
+.navColor {
+    background-color: #1f1f1f00;
+    box-shadow:none;
+    
+}
+
+
 
 
 
@@ -17,20 +25,21 @@ html {
 
 .nav {
     position:fixed;
-    width:100%;
+    width:100vw;
     z-index: 2;
     font-size:1.2rem;
     color:white;
     font-weight:300;
     padding:2rem; 
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.92) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index:200;
 }
 
-
+#nav {background-color: none;}
 
 .menuItems {
     font-size:1.2rem;
      padding:2rem;
+     /* background-color: #3c3c3c00; */
 }
 
 .btn  {
@@ -42,10 +51,11 @@ html {
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    width:100%; 
+    width:100vw; 
     margin-top:10rem;
     color:white;
 }
+
 
 .scrollbox {
     display: flex;
@@ -59,12 +69,52 @@ html {
 }
 
 
+/* about us slide */
+
+.aboutus {
+    width:100vw;
+     height: 100vh; 
+     position:fixed;
+    top:0; 
+    z-index:2; 
+    margin-left:-200rem;
+    transition: all 200ms ease-in-out;
+}
+
+.aboutusCont {
+    float:left; 
+    width:30%; 
+    height: 100vh;
+    background-color:#434831;  
+    padding:2rem; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    padding:10rem 2rem 0rem 2rem;
+    
+}
+
+.aboutustxt {
+    color:#DAFF40; 
+    font-size:1.2rem;
+     margin-top:10rem;
+     text-align: center;
+}
+
+.aboutusEmpty {
+    flex:5; 
+    height: 100vh; 
+     padding:2rem;
+   
+}
+
+
+
 /* Main page section div */
 
 
 .sec {
     width:100vw;
-    height:100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,17 +128,33 @@ html {
     background-image: url('../images/home_bg.png');
     position: relative;
     top:0;
+    width: 100vw;
 }
 
 #section2  {
     background-image: url('../images/bg2.jpg');
     background-attachment:scroll;
-    background-size: contain;
+    background-size: cover;
+    height:80vh;
+    width: 100vw;
+
 }
 
 #section3  {
-    background-image: url('../images/TFyi0QOx08c.jpg');
+    /* background-color:#3c3c3c; */
+    /* background-image: url('../images/TFyi0QOx08c.jpg'); */
     background-attachment:scroll;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#section4  {
+    background-image: url('../images/bg3.png');
+    background-attachment:scroll;
+    background-attachment: fixed;
+    width: 100vw;
 }
 
 .home_bg {
@@ -97,6 +163,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height:100vh;
+    width: 100vw;
 }
 
 
@@ -106,33 +173,42 @@ html {
 }
 
 .secTitle {
-    color: #75704B;
-    font-family: 'Raleway Black';
+    color:#75704B;
+    font-family: 'Raleway';
     font-size:3rem;
-    margin-bottom:5rem;
+    /* margin-bottom:5rem; */
+    font-weight:700;
+    margin: 20rem 0rem 0rem 20rem;
+    
 }
 
 
-/* post */
+/* post/news  - SECTION */
 
 .post {
-    width:30rem;
+    width:20rem;
     display:flex;
     flex-direction:column;
-    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
     margin:2rem;
+    flex:1;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+}
+
+.post:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
 }
 
 .desp {
     background-color:#A8B66E; 
     color:white;
+    width: 25rem;
     padding:2rem;
-    width: 500px;
 }
 
 .title {
     font-family: 'Raleway';
-    font-style: normal;
+    font-weight:700;
 }
 
 .readmoreBtn {
@@ -142,11 +218,90 @@ html {
     
 }
 
+
 .sliderCont{
     overflow-x: scroll;
+    overflow: -moz-scrollbars-none; 
+    -ms-overflow-style: none;
+    display: flex; 
+    flex-direction: row; 
+     width: 100vw; 
+     padding:3rem;
 }
+
+
 
 .hoverable{
     margin: 20px;
     width: 500px;
+}
+
+
+
+/* What we do - SECTION */
+
+.badgebox {
+    padding:1rem;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.badgesCont {
+    width:50%;
+}
+
+.badge {
+    flex:1; 
+    padding:3rem;
+    background-color:#342624; 
+    border-radius:100px;
+}
+
+
+
+.badgebox h6 {
+    font-size: 1.5rem;
+    color:white;
+    font-weight:600;
+    text-align: center;
+    margin:2rem;
+}
+
+
+
+.collapsible-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:1.5rem;
+    font-weight:700;
+    color:#F3A530;
+}
+
+.collapsible-header  i > img {
+    right:10rem;
+}
+
+.collapsible-body {
+    text-align: center;
+}
+
+/* Services */
+
+.collapsible-body {
+    background-color: white;
+}
+
+.collapsible-header {
+    background-color:#A8B66E; 
+}
+
+
+
+#loginBtn:hover {
+    transform:scale(1.1);
 }
