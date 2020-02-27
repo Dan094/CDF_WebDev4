@@ -67,7 +67,13 @@
 
                        
 
-                       
+                        <div class="modal-content" style="justify-content: center;">
+                          <h4>login</h4>
+                          <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
 
         </div>
         
@@ -231,7 +237,7 @@
                                          
                                  </div>
 
-                                         </div> 
+                                         </div>
                                          
                                  </div> 
 
@@ -335,9 +341,6 @@
                                                                         </div>
 
                                                                         <div class="row">
-
-                                                                        <div>
-
                                                                                 <div class="input-field col s10">
                                                                                 <input placeholder="Last Name" id="last_name" type="text" class="validate">
                                                                                 <label for="last_name">Last Name</label>
@@ -457,6 +460,3 @@
                 </script>
   </body>
 </html>
-
-
-
