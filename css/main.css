@@ -186,6 +186,7 @@ html {
 /* post/news  - SECTION */
 
 .post {
+    position:relative;
     width:20rem;
     display:flex;
     flex-direction:column;
@@ -197,6 +198,14 @@ html {
 .post:hover {
     transform: scale(1.1);
     transition: all .2s ease-in-out;
+}
+
+.deleteBtn {
+    position:absolute; 
+    width:3rem; 
+    z-index:200;
+    right:1rem;
+    top:2rem;
 }
 
 .desp {

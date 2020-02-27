@@ -22,7 +22,7 @@
         </head>
 
   <body style="overflow-x: hidden;">
-        <nav style="position:fixed; z-index:20; height:7rem; padding:1rem;" class="navColor" id="nav">
+        <nav style="position:fixed; z-index:2; height:7rem; padding:1rem;" class="navColor" id="nav">
                 <div class="nav-wrapper">
                         <a href="#" class="brand-logo logo">
                                 <img src="./images/logo.png" width="200px" style="position: absolute; z-index: 100;" >
@@ -135,6 +135,7 @@
 
                                          
                                          <div class="post hoverable" data-aos="fade-left" data-aos-duration="1000">
+                                                 <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -146,6 +147,7 @@
                                          </div>
                                          
                                          <div class="post hoverable" data-aos="fade-left" data-aos-duration="1500">
+                                         <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -157,6 +159,7 @@
                                          </div>
                                          
                                          <div class="post hoverable" data-aos="fade-left" data-aos-duration="2000">
+                                         <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -168,6 +171,7 @@
                                          </div>
                                          
                                          <div class="post hoverable"  data-aos="fade-left" data-aos-duration="2500">
+                                         <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -179,6 +183,7 @@
                                          </div>
                                          
                                          <div class="post hoverable" data-aos="fade-left" data-aos-duration="3000">
+                                         <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -190,6 +195,7 @@
                                          </div>
                                          
                                          <div class="post hoverable" data-aos="fade-left" data-aos-duration="3500">
+                                         <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -201,7 +207,9 @@
                                          </div>
                                          
                                          <div class="post hoverable" >
+                                         <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
+                                                 
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
                                                          <p>We are celebrating the arrival of a new baby North Atlantic whale after it was spotted with ...</p>
@@ -212,6 +220,7 @@
                                          </div>
                                          
                                          <div class="post hoverable" >
+                                         <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -263,6 +272,7 @@
                                                 <div class="collapsible-header" style="background-color:#434831; border:none; color:white;"><i class="material-icons"><img src="images/badge2.svg" style="margin-left:-2rem;"></i>Endangered species & biodiversity </div>
                                                 <div class="collapsible-body"><span>Canada is fortunate to be home to thousands of wildlife species and the vast areas of land and water on which they depend. Unfortunately, many of these species are in decline, due in part to human activities. There are currently more than 700 species of plants and animals at risk of being lost from Canada. There isn’t any one culprit, but rather a combination of factors that are leading to species decline.</span></div>
                                         </li>
+                                        <li class="active" data-aos="fade-in" data-aos-duration="1000">
                                                 <div class="collapsible-header" style="background-color:#434831; border:none; color:white;"><i class="material-icons"><img src="images/badge3.svg" style="margin-left:-2rem;"></i>Fields & Forests</div>
                                                 <div class="collapsible-body"><span>Canadian forests and fields have an important role to play in supporting our communities, our economy and our wildlife. Loss and alteration of habitat, toxic pollutants such the widespread use of pesticides and herbicides and climate change threaten Canada’s wildlife in our forests and farmlands.</span></div>
                                         </li>
