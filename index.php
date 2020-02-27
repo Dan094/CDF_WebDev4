@@ -237,7 +237,7 @@
                                          
                                  </div>
 
-                                         </div> -->
+                                         </div>
                                          
                                  </div> 
 
@@ -341,9 +341,6 @@
                                                                         </div>
 
                                                                         <div class="row">
-
-                                                                        <div>
-
                                                                                 <div class="input-field col s10">
                                                                                 <input placeholder="Last Name" id="last_name" type="text" class="validate">
                                                                                 <label for="last_name">Last Name</label>
