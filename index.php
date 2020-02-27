@@ -67,14 +67,6 @@
 
                        
 
-                        <div class="modal-content" style="justify-content: center;">
-                          <h4>login</h4>
-                          <p>A bunch of text</p>
-                        </div>
-                        <div class="modal-footer">
-                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-                        </div>
-
         </div>
         
         <div class="sec heroimg" id="section1" style="height:100vh;">
@@ -126,16 +118,32 @@
                                  <div class="col s12" style="margin: 2rem; height:auto;">
                                                  <h2 class="secTitle" style="margin:5rem 0rem 0rem 0rem; padding:0rem; text-align: center;">News & Events</h2>
                                          </div>
+
+
+                                        <div class="post col s2" data-aos="fade-left" data-aos-duration="1000">
+                                        <div style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                                                        <a href="#contentModal" class="modal-trigger"><img src="images/createBtn.svg" width="100px" ></a>
+                                                        <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News or Event</h4>
+                                        </div>
+                                                
+                                        </div>
+                                         <div id="contentModal" class="modal">
+                                        
+                                         <div class="modal-content">
+                                                <h4>Add Content</h4>
+                                                <form id="contentForm">
+                                                <input type="text" name="title" placeholder="Title">
+                                                <input type="text" name="content" placeholder="Content">
+                                                <input type="text" name="img" placeholder="Image URL">
+                                                <input type="text" name="link" placeholder="Link">
+                                                <button class="submit modal-close waves-effect waves-green btn-flat">Submit</button>
+                                                <form/>
+                                        </div>
+                               
+                                </div>
                                  <div class="sliderCont ">
 
 
-                                        <div class="post " data-aos="fade-left" data-aos-duration="1000">
-                                                <div style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                                                <a href="#"><img src="images/createBtn.svg" width="100px" ></a>
-                                                                <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News or Event</h4>
-                                                </div>
-                                                     
-                                                </div>
 
 
 
