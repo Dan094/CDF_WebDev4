@@ -48,18 +48,18 @@
                                         <form class="col s12">
                                         <div class="row">
                                             <div class="input-field col s12">
-                                              <input id="email" type="email" class="validate">
-                                              <label for="email">Email</label>
+                                                        <input id="email" type="email" class="validate">
+                                                        <label for="email">Email</label>
                                             </div>
-                                          </div>
-                                          <div class="row">
                                             <div class="input-field col s12">
-                                              <input id="password" type="password" class="validate">
-                                              <label for="password">Password</label>
-                                            </div>
+                                                        <input id="password" type="password" class="validate">
+                                                        <label for="password">Password</label>
+                                                </div>
+                                          <div class="row">
+                                        
                                           </div>
                                          
-                                          
+                                          <a  class="waves-effect waves-light btn-large waves-effect waves-light btn modal-trigger" data-target="modal1"  style="background-color: rgb(181, 211, 61);font-weight:bold; width:100%;">Login</a>
                                           </div>
                                         </form>
                                       </div>
@@ -67,13 +67,7 @@
 
                        
 
-                        <div class="modal-content" style="justify-content: center;">
-                          <h4>login</h4>
-                          <p>A bunch of text</p>
-                        </div>
-                        <div class="modal-footer">
-                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-                        </div>
+
 
         </div>
         
@@ -334,7 +328,7 @@
                                                 <div class="row">
                                                                 <div class="row">
                                                                                 <div class="input-field col s10">
-                                                                                <input placeholder="First Name" id="first_name" type="text" class="validate">
+                                                                                <input  id="first_name" type="text" class="validate">
                                                                                 <label for="first_name">First Name</label>
                                                                                 </div>
                                                                                 
@@ -342,7 +336,7 @@
 
                                                                         <div class="row">
                                                                                 <div class="input-field col s10">
-                                                                                <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                                                                                <input  id="last_name" type="text" class="validate">
                                                                                 <label for="last_name">Last Name</label>
                                                                                 </div>
                                                                         </div>
@@ -355,11 +349,15 @@
                                                                         <div class="row">
                                                                                         <div class="input-field col s10">
                                                                                         <label for="email">Message</label>
-                                                                                        <textarea id="w3mission" rows="4" cols="50">
+                                                                                        <textarea id="w3mission" rows="50" cols="50" >
                                                                                                        
-                                                                        </textarea>
+                                                                                                       </textarea>
+                                                                                      
                                                                                        
                                                                         </div>
+
+
+                                                                       
                                                                         <div class="col l10 m5">
                                                                                         <a class="waves-effect waves-light btn-large" style="background-color: #F3A530;font-weight:bold;">Submit</a>
                                                                         </div>
