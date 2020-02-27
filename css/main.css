@@ -76,7 +76,7 @@ html {
      height: 100vh; 
      position:fixed;
     top:0; 
-    z-index:2; 
+    z-index:4; 
     margin-left:-200rem;
     transition: all 200ms ease-in-out;
 }
@@ -150,6 +150,11 @@ html {
     overflow: hidden;
 }
 
+#section3:-webkit-scrollbar {
+    display: none;
+}
+
+
 #section4  {
     background-image: url('../images/bg3.png');
     background-attachment:scroll;
@@ -188,6 +193,7 @@ html {
 /* post/news  - SECTION */
 
 .post {
+    position:relative;
     width:20rem;
     display:flex;
     flex-direction:column;
@@ -199,6 +205,14 @@ html {
 .post:hover {
     transform: scale(1.1);
     transition: all .2s ease-in-out;
+}
+
+.deleteBtn {
+    position:absolute; 
+    width:3rem; 
+    z-index:2;
+    right:1rem;
+    top:2rem;
 }
 
 .desp {
@@ -223,14 +237,16 @@ html {
 
 .sliderCont{
     overflow-x: scroll;
-    overflow: -moz-scrollbars-none; 
-    -ms-overflow-style: none;
+
     display: flex; 
     flex-direction: row; 
      width: 100vw; 
      padding:3rem;
 }
 
+.sliderCont:-webkit-scrollbar {
+    display: none;
+}
 
 
 .hoverable{
