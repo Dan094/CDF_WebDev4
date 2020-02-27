@@ -12,6 +12,7 @@
                 <script>var url = "<?php echo $url?>"</script>
                  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         </head>
 
   <body style="overflow-x: hidden;">
@@ -26,10 +27,22 @@
                         <li><a href="Index.html#section5">Services</a></li>
                         <li><a href="Index.html#section3">News</a></li>
                         <li><a href="collapsible.html">Contact</a></li>
-                        <li><a href="mobile.html" class="waves-effect waves-light btn-large" style="background-color: rgb(181, 211, 61);font-weight:bold;">Login</a></li>
+                        <li><a  class="waves-effect waves-light btn-large waves-effect waves-light btn modal-trigger" data-target="modal1" class="btn modal-trigger" id="loginBtn" style="background-color: rgb(181, 211, 61);font-weight:bold;">Login</a></li>
                         </ul>
                 </div>
+
+                
         </nav>
+
+        <div id="modal1" class="modal">
+                        <div class="modal-content" style="justify-content: center;">
+                          <h4>login</h4>
+                          <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+        </div>
         
         <div class="sec heroimg" id="section1" style="height:100vh;">
                 <div class="container" > 
@@ -71,20 +84,7 @@
                
      
         
-        <!-- <div class="sec" id="section2" >
-                <div class="container" style="margin-top:10rem;">
-                        <div class="row">
-                                <div class="col s10 m6 l5">
-                                        <img src="./images/Mask Group.jpg" class="img1" width="100%">
-                                </div>
-                                <div class="col l2"></div>
-                                <div class="col s12 m10 l5" style="margin-top:8rem;font-weight: bold;">
-                                        <h4>Our mission is to conserve and inspire the conservation of Canada’s wildlife and habitats for the use and enjoyment of all. We believe this is important to you too.</h4>
-                                </div>
-                        </div>
-                </div>
-
-        </div> -->
+   
 
         <div class="sec" id="section3" style="height:auto;">
 
@@ -94,11 +94,9 @@
                                                  <h2 class="secTitle" style="margin:5rem 0rem 0rem 0rem; padding:0rem; text-align: center;">News & Events</h2>
                                          </div>
                                  <div class="sliderCont ">
-<<<<<<< HEAD:index.html
+
                                          <div class="post hoverable"  data-aos="fade-left" >
-=======
-                                      <!--<div class="post hoverable"  style="margin-left:15rem;" data-aos="fade-left" >
->>>>>>> origin/shermanchong:index.php
+
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
                                                  <div class="desp">
                                                          <h5 class="title" >GLOBAL NEWS: 10TH NORTH ATLANTIC RIGHT WHALE CALF OF THE SEASON SPOTTED OFF SOUTH CAROLINA</h5>
@@ -108,6 +106,7 @@
                                                          </a>
                                                  </div>
                                          </div>
+
                                          
                                          <div class="post hoverable" data-aos="fade-left" data-aos-duration="1000">
                                                  <img class="img" src="images/post_img.jpg" width="100%" >
@@ -206,76 +205,13 @@
 
 </div>
               
-        <!-- <div class="sec" id="section4"></div>
-
-                        <div class="container badgesCont" >
-                                        <div class="row">
-                                                <div class="row" style="text-align: center; margin:10rem 0rem 10rem 0rem; ">
-                                                        <h1 class="secTitle" style="margin:0rem;  font-weight:700;">What We Do</h1>
-                                                </div>
-                                        </div>
-                                        <div class="row">
-                                                <div class="row" style="display: flex; flex-direction: row;">
-                                                                <div class="badgebox">
-                                                                                <div class="badge">
-                                                                                        <img src="images/badge1.svg" width="50px">
-                                                                                </div>
-                                                                                <h6>Lakes & Rivers</h6>
-                                                                </div>     
-                                                                <div class="badgebox glow">
-                                                                                <div class="badge">
-                                                                                        <img src="images/badge1.svg" width="50px">
-                                                                                </div>
-                                                                                <h6>Lakes & Rivers</h6>
-                                                                </div> 
-                                                                <div class="badgebox">
-                                                                                <div class="badge">
-                                                                                        <img src="images/badge1.svg" width="50px">
-                                                                                </div>
-                                                                                <h6>Lakes & Rivers</h6>
-                                                                </div>   
-                                                                <div class="badgebox">
-                                                                                <div class="badge">
-                                                                                        <img src="images/badge1.svg" width="50px">
-                                                                                </div>
-                                                                                <h6>Lakes & Rivers</h6>
-                                                                </div> 
-                                                </div>
-                                                <div class="row" style="display: flex; flex-direction: row;">
-                                                                <div class="badgebox">
-                                                                                <div class="badge">
-                                                                                        <img src="images/badge1.svg" width="50px">
-                                                                                </div>
-                                                                                <h6>Lakes & Rivers</h6>
-                                                                </div>     
-                                                                <div class="badgebox">
-                                                                                <div class="badge">
-                                                                                        <img src="images/badge1.svg" width="50px">
-                                                                                </div>
-                                                                                <h6>Lakes & Rivers</h6>
-                                                                </div> 
-                                                                <div class="badgebox">
-                                                                                <div class="badge">
-                                                                                        <img src="images/badge1.svg" width="50px">
-                                                                                </div>
-                                                                                <h6>Lakes & Rivers</h6>
-                                                                </div>   
-                                                                <div class="badgebox">
-                                                                                <div class="badge">
-                                                                                        <img src="images/badge1.svg" width="50px">
-                                                                                </div>
-                                                                                <h6>Lakes & Rivers</h6>
-                                                                </div> 
-                                                </div>
-                                        </div>
-                        </div>
-         -->
+       
 
 
         
         </div>
 
-        <div class="sec"  style="height:120vh; margin-top:8rem; background-color: #A8B66E; border:none;" id="section4" >
+        <div class="sec"  style="height:120vh; width:100vw; margin-top:8rem; background-color: #A8B66E; border:none;" id="section4" >
                         <div class="col s12" style="padding: 5rem 0rem 2rem; ">
                                         <h2 class="secTitle" style="margin:5rem 0rem 0rem 0rem; padding:0rem; text-align: center;" id="section5">What we do</h2>
                                 </div>
@@ -288,7 +224,6 @@
                                                 <div class="collapsible-header" style="background-color:#434831; border:none; color:white;"><i class="material-icons"><img src="images/badge2.svg" style="margin-left:-2rem;"></i>Endangered species & biodiversity </div>
                                                 <div class="collapsible-body"><span>Canada is fortunate to be home to thousands of wildlife species and the vast areas of land and water on which they depend. Unfortunately, many of these species are in decline, due in part to human activities. There are currently more than 700 species of plants and animals at risk of being lost from Canada. There isn’t any one culprit, but rather a combination of factors that are leading to species decline.</span></div>
                                         </li>
-                                        <li class="active" data-aos="fade-in" data-aos-duration="1500">
                                                 <div class="collapsible-header" style="background-color:#434831; border:none; color:white;"><i class="material-icons"><img src="images/badge3.svg" style="margin-left:-2rem;"></i>Fields & Forests</div>
                                                 <div class="collapsible-body"><span>Canadian forests and fields have an important role to play in supporting our communities, our economy and our wildlife. Loss and alteration of habitat, toxic pollutants such the widespread use of pesticides and herbicides and climate change threaten Canada’s wildlife in our forests and farmlands.</span></div>
                                         </li>
@@ -317,26 +252,40 @@
                         <div class="row">
                                 <div class="col s12">
 
-                                        <div class="col s5">
-                                                        <h1>Contact Us</h1>
+                                        <div class="col s6" style="margin-top: 5%;">
+                                                        <h2> Contact Us</h2>
                                                         <p>
-                                                                        Our regular business hours are Monday to Friday, 8am to 5pm ET.
-                                                                        You can contact Customer Service:
-                                                                        Monday to Friday, 8am to 8pm
-                                                                        Saturday, 10am to 1pm ET
-                                                                        If you call outside of business hours, please leave a message and we will get back to you.
-                                                                        
-                                                                        Phone: 1 - 800 - 563 - 9453
-                                                                        Email: info@cwf-fcf.org 
-                                                                        Mail: Canadian Wildlife Federation (Ottawa - Head Office)
-                                                                                  c/o Customer Service
-                                                                                  350 Michael Cowpland Drive
-                                                                                  Kanata, Ontario K2M 2W1
-                                                                        
+                                                                Our regular business hours are Monday to Friday, 8am to 5pm ET.
+                                                                <br><br>
+                                                                You can contact Customer Service:
+                                                                <br>
+                                                                Monday to Friday, 8am to 8pm
+                                                                <br>
+                                                                Saturday, 10am to 1pm ET
+                                                                <br>
+                                                                If you call outside of business hours, please leave a message and we will get back to you.
+                                                                
+                                                                <br><br>
+                                                                <b>Phone:</b> 1 - 800 - 563 - 9453
+                                                                <br>
+                                                               <b> Email: </b> info@cwf-fcf.org 
+                                                                <br>
+                                                                <b>Mail:</b> Canadian Wildlife Federation (Ottawa - Head Office)
+                                                                
+                                                                        <br>
+                                                                        c/o Customer Service
+                                                                        <br>
+                                                                        350 Michael Cowpland Drive
+                                                                        <br>
+                                                                        Kanata, Ontario K2M 2W1              
+                                                                
                                                         </p>
+                                                        <br><br>
                                                         <p>Thank you for your interest in Canadian Wildlife.
                                                                         We would love to hear from you!  
                                                         </p>
+                                                        <br><br>
+
                                                 <div class="row">
                                                                 <div class="row">
                                                                                 <div class="input-field col s10">
@@ -371,26 +320,45 @@
                                                                         </form>
                                                 </div>
                                         </div>
-                                       
-
 
 
                                 </div>
-                               <div class="col s5">
-                                        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=350%20Michael%20Cowpland%20Dr%2C%20Glen%20Cairn%20-%20Kanata%20South%20Business%20Park%2C%20Ottawa%2C%20ON%20K2M%202W1%2C%20Canada&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com">whatismyip-address.com</a></div><style>.mapouter{position:relative;text-align:right;height:450px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:500px;}</style></div>
-                                        <h4>To Update Your Contact Information:</h4>
-                                        <p>
-                                                        If you are a current supporter of CWF and have changed your address/personal information or would like to update your pre-authorized payments, please sign in and visit the Supporter Centre, email info@cwf-fcf.org or call us 1 - 800 - 563 - 9453
 
-                                                        For information on the Foundation, please visit: CanadianWildlifeFoundation.org.
+                               <div class="col s6">
+                                        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=350%20Michael%20Cowpland%20Dr%2C%20Glen%20Cairn%20-%20Kanata%20South%20Business%20Park%2C%20Ottawa%2C%20ON%20K2M%202W1%2C%20Canada&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                                <a href="https://www.whatismyip-address.com">whatismyip-address.com</a>
+                                        </div>
+                                        <style>.mapouter{position:relative;text-align:right;height:450px;width:500px;margin-top: 28%; box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:500px;}</style>
+                                        </div>
+                                        <br><br>
+                                        <h5><b>To Update Your Contact Information:</b></h5>
+                                        <p>
+                                                        If you are a current supporter of CWF and have changed your address/personal information or would like to update your pre-authorized payments, please sign in and visit the Supporter Centre, email <a href="mailto:info@cwf-fcf.org" target="_blank"> info@cwf-fcf.org </a> or call us 1 - 800 - 563 - 9453
+                                                <br><br>
+                                                        For information on the Foundation, please visit: <a href="https://cwf-fcf.org/en/foundation/" target="_blank">CanadianWildlifeFoundation.org.</a>
                                         </p>
-                                        <h5>Connect With Us!</h5>
-                                        <div class="row">
-                                                                <img src="images/icon_p.png" width="100px">
-                                                                <img src="images/icon_tw.png"  width="100px">
-                                                                <img src="images/icon_ig.png" class="col s5">
-                                                                <img src="images/icon_yt.png" class="col s5">
-               
+                                        <br><br>
+                                        <h5><b>Connect With Us!</b></h5>
+                                        <div class="col s10" >
+                                                <a href="https://www.facebook.com/CanadianWildlifeFederation/" target="_blank">
+                                                        <img src="images/icon_fb.png" width="50px" style="margin: 10px"> 
+                                                </a>
+                                                <a href="https://twitter.com/cwf_fcf" target="_blank">
+                                                        <img src="images/icon_tw.png" width="50px" style="margin: 10px">
+                                                </a>
+                                                <a href="https://www.instagram.com/cwf_fcf/" target="_blank">
+                                                        <img src="images/icon_ig.png"  width="50px" style="margin: 10px">
+                                                </a>
+                                                <a href="https://www.pinterest.ca/cwf/" target="_blank">
+                                                         <img src="images/icon_p.png" width="50px" style="margin: 10px">
+                                                </a>
+                                                <a href="https://www.youtube.com/user/CanadianWildlifeFed" target="_blank">
+                                                        <img src="images/icon_yt.png" width="50px" style="margin: 10px">
+                                                </a>
+                                                <a href="http://blog.cwf-fcf.org/index.php/en/" target="_blank">
+                                                        <img src="images/icon_wp.png" width="50px" style="margin: 10px">
+                                                </a>
+
                                         </div>
                                </div>
                                         
@@ -410,8 +378,7 @@
                 <div class="container">
                 <div class="row">
                 <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                        <img src="images/logo.png" width="60%">
                 </div>
                 <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
@@ -426,7 +393,7 @@
                 </div>
                 <div class="footer-copyright">
                 <div class="container">
-                © 2014 Copyright Text
+                        © 2020 Canadian Wildlife Federation. All Rights Reserved.
                 <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
                 </div>
                 </div>
