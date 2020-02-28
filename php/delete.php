@@ -2,14 +2,13 @@
 
 require_once('./data.php');
 
-if (!isset($_POST['id'])) {
-  http_response_code(400);
-  echo json_encode(["error" => "Must post an id"]);
-  exit();
+if ($_SERVER['REQUEST_METHOD'] ==='POST'){
+   
+    $title = $_POST['title'];
+    deletePost($title);
 }
 
-$id = $_POST['id'];
-deletePost($id);
+
 
 header("Content-type: application/json");
-echo json_encode(["data" => ["id" => $id]]);
+echo json_encode(["data" => ["title" => $title]]);

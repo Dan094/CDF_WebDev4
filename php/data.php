@@ -68,11 +68,11 @@ function saveNewPost($title, $content, $img, $link) {
 }
 
 // deletes a single squeak
-function deletePost($postsId) {
+function deletePost($title) {
     $sql ="
     UPDATE posts
     SET deleted = true
-    WHERE postsID = $postsId";
+    WHERE title = '$title'";
     
     $posts = runQuery($sql);
   
@@ -91,5 +91,11 @@ function checkLogin($username, $password){
   $posts = runQuery($sql);
 
   return $posts;
+  
+
+  if (!$posts){
+    echo 'Something bad happend';
+    exit();
+  }
 
 }
