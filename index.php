@@ -175,7 +175,7 @@
                                 <h4 style="color:#928F8F; font-size:1.5rem;text-align: center; width:12rem;"> Create Post</h4>
 
                             </div>
-                        <!----------------------------------->
+                        
                         </div>
 
 
@@ -188,11 +188,11 @@
                                 <p>We are celebrating the arrival of a new baby North Atlantic whale after it
                                     was spotted with ...</p>
 
-                                  <!--  !!!!!  hide this by default !!!!! -->
+                                   !!!!!  hide this by default !!!!! 
                                 <a href="#" class="readmoreBtn">
                                     <h6>Read More</h6>
                                 </a>
-                                <!----------------------------------->
+                               
                             </div>
                         </div>
 
