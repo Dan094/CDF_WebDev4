@@ -150,6 +150,7 @@
 
                         </div>
                     </div>
+                    
                     <div id="contentModal" class="modal">
 
                         <div class="modal-content">
