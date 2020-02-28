@@ -167,7 +167,7 @@
                     <div class="sliderCont  ">
                         
                     <!--  !!!!!  hide this by default !!!!! -->
-                    <div class="col s9" data-aos="fade-left" style="padding:0rem; " data-aos-delay="0" >
+                    <div class="col s9" data-aos="fade-left" style="padding:0rem; margin-right:2rem; background-color:#f2f0ee; " data-aos-delay="0" >
                             <div
                                 style="height:100%; padding:5rem; display: flex; justify-content: center; align-items: center; flex-direction: column; ">
                                 <a href="#contentModal" class="createbtn modal-trigger" ><img src="images/createBtn.svg" width="100px"></a>
