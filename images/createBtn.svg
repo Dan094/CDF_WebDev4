@@ -1,4 +1,13 @@
-<svg width="129" height="129" viewBox="0 0 129 129" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="64.6523" cy="64.3476" r="45.5006" transform="rotate(45 64.6523 64.3476)" fill="#928F8F"/>
-<path d="M89.9344 67.0908L89.9344 61.4279H67.4838L67.4838 38.9773H61.8209L61.8209 61.4279H39.3703L39.3703 67.0908L61.8209 67.0908V89.5414H67.4838V67.0908L89.9344 67.0908Z" fill="#EDE1E1" fill-opacity="0.54"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 129 129" style="enable-background:new 0 0 129 129;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F3A530;}
+	.st1{fill:#FFFFFF;fill-opacity:0.54;}
+</style>
+<path class="st0" d="M96.8,32.3c-17.8-18-46.6-18-64.4,0c-17.8,18-17.8,47.1,0,65c17.8,17.9,46.6,17.9,64.4,0
+	C114.6,79.4,114.6,50.3,96.8,32.3z M89.9,67.6H67.5v22.7h-5.7V67.6H39.4v-5.7h22.5V39.2h5.7v22.7h22.5V67.6z"/>
+<polygon class="st1" points="89.9,61.9 89.9,67.6 67.5,67.6 67.5,90.3 61.8,90.3 61.8,67.6 39.4,67.6 39.4,61.9 61.8,61.9 
+	61.8,39.2 67.5,39.2 67.5,61.9 "/>
 </svg>
