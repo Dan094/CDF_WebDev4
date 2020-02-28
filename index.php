@@ -36,7 +36,7 @@
                 <li><a href="">Home</a></li>
                 <li><a href="Index.php#section5">Services</a></li>
                 <li><a href="Index.php#section3">News</a></li>
-                <li><a href="collapsible.html">Contact</a></li>
+                <li><a href="#section5">Contact</a></li>
                 <li><a class="waves-effect waves-light btn-large waves-effect waves-light btn modal-trigger"
                         data-target="modal1" class="btn modal-trigger" id="loginBtn"
                         style="background-color: rgb(181, 211, 61);font-weight:bold;">Login</a></li>
@@ -56,18 +56,17 @@
                     <div class="row">
                         <div class="input-field col s12">
                             <form id="loginForm">
-                                <div class="row">
+                        
                                 <div class="row">
                                 <div class="input-field col s12">
-                                        <input id="password" type="password" class="validate">
+                                        <input id="username" type="text" name="username" class="validate">
+                                        <label for="username">Username</label>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="input-field col s12">
+                                        <input id="password" type="password" name="password" class="validate">
                                         <label for="password">Password</label>
-                                </div>
-                                </div>
-                                <div class="row">
-                                <div class="input-field col s12">
-                                        <input id="email" type="email" class="validate">
-                                        <label for="email">Email</label>
-                                </div>
                                 </div>
                                 </div>
                             </form>
@@ -176,7 +175,7 @@
                         </div>
 
 
-                        <div class="post hoverable" data-aos="fade-left" data-aos-delay="500">
+                   <!--     <div class="post hoverable" data-aos="fade-left" data-aos-delay="500">
                             <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                             <img class="img" src="images/post_img.jpg" width="100%">
                             <div class="desp">
@@ -287,7 +286,7 @@
                                 </a>
                             </div>
 
-                        </div>
+                        </div> -->
 
                     </div>
 
