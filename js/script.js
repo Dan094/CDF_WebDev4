@@ -114,3 +114,10 @@ $(document).ready(function(){
   $('.modal').modal();
 });
       
+// Signup modal initaling
+
+
+$(document).ready(function(){
+  $('#contentModal').modal();
+});
+      
