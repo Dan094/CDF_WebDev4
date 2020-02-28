@@ -175,7 +175,7 @@
                                 <h4 style="color:#928F8F; font-size:1.5rem;text-align: center; width:12rem;"> Create Post</h4>
 
                             </div>
-       
+
                         </div>
 
 
@@ -191,6 +191,7 @@
                                    !!!!!  hide this by default !!!!! -->
                               
                                 <!----------------------------------
+
                             </div>
                         </div>
 
