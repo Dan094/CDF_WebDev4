@@ -10,15 +10,14 @@
     <link href="./css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
     <script>
     var url = "<?php echo $url?>"
     </script>
-
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,11 +28,11 @@
 <body style="overflow-x: hidden;">
     <nav style="position:fixed; z-index:3; height:7rem; padding:1rem;" class="navColor" id="nav">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo logo">
-                <img src="./images/logo.png" width="200px" style="position: absolute; z-index: 100;">
+            <a href="#" class="brand-logo logo animated fadeIn delay-2s">
+                <img src="./images/logo.png" width="200px" style="position: absolute; z-index: 100;" >
             </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down animated fadeIn delay-3s">
                 <li><a href="">Home</a></li>
                 <li><a href="Index.php#section5">Services</a></li>
                 <li><a href="Index.php#section3">News</a></li>
@@ -102,12 +101,13 @@
             <div class=" heroimg">
                 <div class="row">
                     <div class="col xl5 l5 m8 s10" style="margin-top:15rem; z-index:-20;">
-                        <h1 class="bigtxt lax" data-lax-translate-y="0 0, 400 -400" data-lax-opacity="0 1, 100 0">Your
+                        <h1 class="bigtxt lax"  data-aos="fade-right" data-aos-delay="500" data-lax-translate-y="0 0, 400 -400" data-lax-opacity="0 1, 100 0">Your
                             adventure of a lifetime awaits!</h1>
                     </div>
                     <div class="col l10 m5">
                         <a class="lax waves-effect waves-light btn-large"
                             style="background-color: #F3A530;font-weight:bold;" data-aos="fade-in"
+                            data-aos="fade-up" data-aos-delay="500"
                             data-lax-opacity="0 1, 100 0">Donate</a>
                     </div>
                     <div class="col l10 row scrollsection" style="width:100%; position: relative; bottom:-4rem;"
@@ -125,7 +125,7 @@
     <div class="aboutus">
         <div class="aboutusCont">
             <img src="images/logo.png" width="300px">
-            <div class="aboutustxt">
+            <div class="aboutustxt" >
                 Our mission is to conserve and inspire the conservation of Canada’s wildlife and habitats for the use
                 and enjoyment of all. We believe this is important to you too.
             </div>
@@ -403,7 +403,8 @@
                 <div class="col s12">
 
                     <div class="col s6" style="margin-top: 5%;">
-                        <h3><b> Contact Us </b></h3>
+                    
+                        <h3 style="color:#75704B;"><b> Contact Us </b></h3>
                         <p>
                             Our regular business hours are Monday to Friday, 8am to 5pm ET.
                             <br><br>
@@ -560,11 +561,11 @@
 
         <footer class="page-footer" style="background-color: #1F1A1D;">
             <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <img src="images/logo.png" width="60%">
-                    </div>
-                    <div class="col l4 offset-l2 s12">
+                <div class="row" style="display:flex; algin-item:center; justify-content:center;">
+                  
+                        <img src="images/logo.png" width="30%">
+                    
+                    <!-- <div class="col l4 offset-l2 s12">
                         <h5 class="white-text">External Websites</h5>
                         <ul>
                             <li><a class="grey-text text-lighten-3" href="#!">www.WHO.com</a></li>
@@ -572,13 +573,13 @@
                             <li><a class="grey-text text-lighten-3" href="#!">www.jjbean.ca</a></li>
                             <li><a class="grey-text text-lighten-3" href="#!">www.jackyleeinfo.ca</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="footer-copyright">
-                <div class="container">
+                <div class="container" style="display:flex; algin-item:center; justify-content:center;">
                     © 2020 Canadian Wildlife Federation. All Rights Reserved.
-                    <a class="grey-text text-lighten-4 right" href="#!">www.instagram/csf.com</a>
+                    
                 </div>
             </div>
         </footer>
