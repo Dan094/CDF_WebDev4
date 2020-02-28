@@ -8,7 +8,11 @@ const createPost = post => $(`
                                                  <div class="desp">
                                                  <?php
                                                  if(isset($_SESSION['username'])){
-                                                     echo "<div> <img onclick="deletePost('${post.title}')" src="images/delete_24px.svg" width="10px" class="deleteBtn"></div>" } else {echo " "} ?>
+                                                     echo "<div> <img onclick="deletePost('${post.title}')" src='images/delete_24px.svg' width='10px' class='deleteBtn'> </div>";
+                                                }else{
+                                                    echo " ";
+                                                }
+                                                ?>
                                                          <h5 class="title" >${post.title}</h5>
                                                          <p>${post.content}</p>
                                                          <a href="${post.link}" class="readmoreBtn">
@@ -18,7 +22,9 @@ const createPost = post => $(`
                                          </div>
 `);
 
-
+function test(data){
+    console.log(data);
+}
 
 
 function getAllPosts(data) {
@@ -27,9 +33,8 @@ function getAllPosts(data) {
         url: `${url}/php/posts.php`,
         data: data
     }).then(({ data }) => {
-
-        for (const id in data) {
-            const post = data[id];
+        for (const postsId in data) {
+            const post = data[postsId];
             createPost(post).appendTo('.sliderCont');
         }
 
