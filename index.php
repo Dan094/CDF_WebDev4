@@ -6,6 +6,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -50,19 +51,26 @@
 
         <div class="modal-content"
             style="display:flex; justify-content: center; align-items: center; flex-direction: column;">
-            <h4>login</h4>
+            <h4>SignIn</h4>
             <div class="row">
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s12">
                             <form id="loginForm">
-
-                                <label for="email">Email</label>
-                                <input id="email" type="email" class="validate">
-
-                                <input id="password" type="password" class="validate">
-                                <label for="password">Password</label>
-                                <button class="submit modal-close waves-effect waves-green btn-flat">Submit</button>
+                                <div class="row">
+                                <div class="row">
+                                <div class="input-field col s12">
+                                        <input id="password" type="password" class="validate">
+                                        <label for="password">Password</label>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="input-field col s12">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                </div>
+                                </div>
+                                </div>
                             </form>
 
                         </div>
@@ -102,7 +110,7 @@
                             style="background-color: #F3A530;font-weight:bold;" data-aos="fade-in"
                             data-lax-opacity="0 1, 100 0">Donate</a>
                     </div>
-                    <div class="col l10 row scrollsection  lax" style="width:100%; position: relative;"
+                    <div class="col l10 row scrollsection" style="width:100%; position: relative; bottom:-4rem;"
                         data-lax-translate-y="0, 0, 400, -400">
                         <a href="#section3" class="scrollbox">
                             <h5>Scroll Down</h5>
@@ -134,43 +142,38 @@
 
         <div class="col s12">
             <div class="row">
-                <div class="col s12" style="margin: 2rem; height:auto;">
-                    <h2 class="secTitle" style="margin:5rem 0rem 0rem 0rem; padding:0rem; text-align: center;">News &
-                        Events</h2>
+                <div class="col s12" style="margin: 0rem; height:auto;">
+                    <h2 class="secTitle" style="margin:5rem 0rem 0rem 0rem; padding:0rem; text-align: center;">News & Events</h2>
                 </div>
 
 
                 <div class="col s12">
-                    <div class="addCont col s3" data-aos="fade-left" data-aos-duration="1000"
-                        style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 50px;">
+                 
 
-                       
-                    </div>
+                    <div id="contentModal" class="modal" >
 
-                    <div id="contentModal" class="modal">
-
-                        <div class="modal-content">
+                        <div class="modal-content" style="padding:10rem;">
                             <h4>Add Content</h4>
-                            <form id="contentForm">
+                            <form id="contentForm" >
                                 <input type="text" name="title" placeholder="Title">
                                 <input type="text" name="content" placeholder="Content">
                                 <input type="text" name="img" placeholder="Image URL">
-                                <input type="text" name="link" placeholder="Link">
-                                <button class="submit modal-close waves-effect waves-green btn-flat">Submit</button>
+                                <input type="text" name="link" placeholder="Article Link">
+                                <button class="btn waves-effect waves-light btn-large " style="margin-top:2rem;background-color: rgb(181, 211, 61);font-weight:bold;" type="submit" name="action">Post</button>                              
                             </form>
                         </div>
 
                     </div>
                     <div class="sliderCont  ">
                         
-                    <div class="post col s9" data-aos="fade-left" data-aos-delay="0">
+                    <!--  !!!!!  hide this by default !!!!! -->
+                    <div class="col s9" data-aos="fade-left" style="padding:0rem; " data-aos-delay="0" >
                             <div
-                                style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                <a href="#"><img src="images/createBtn.svg" width="100px"></a>
-                                <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News
-                                    or Event</h4>
+                                style="height:100%; padding:5rem; display: flex; justify-content: center; align-items: center; flex-direction: column; ">
+                                <a href="#contentModal" class="createbtn modal-trigger" ><img src="images/createBtn.svg" width="100px"></a>
+                                <h4 style="color:#928F8F; font-size:1.5rem;text-align: center; width:12rem;"> Create Post</h4>
                             </div>
-
+                        <!----------------------------------->
                         </div>
 
 
@@ -182,9 +185,12 @@
                                     SEASON SPOTTED OFF SOUTH CAROLINA</h5>
                                 <p>We are celebrating the arrival of a new baby North Atlantic whale after it
                                     was spotted with ...</p>
+
+                                  <!--  !!!!!  hide this by default !!!!! -->
                                 <a href="#" class="readmoreBtn">
                                     <h6>Read More</h6>
                                 </a>
+                                <!----------------------------------->
                             </div>
                         </div>
 
