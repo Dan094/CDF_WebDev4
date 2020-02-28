@@ -22,7 +22,7 @@ function getAllPosts(data) {
       url: `${url}/php/posts.php`,
       data: data
     }).then(({data}) => {
-      $('.sliderCont').empty();
+   
       for(const id in data) {
         const post = data[id];
         createPost(post).appendTo('.sliderCont');
@@ -69,7 +69,7 @@ function getAllPosts(data) {
   function deletePost(postsID) {
     $.ajax({
       type: "POST",
-      url: `${url}/delete.php`,
+      url: `${url}/php/delete.php`,
       data: `id=${postsID}`
     }).then(({ data }) => {
       if (data.id) {
@@ -80,3 +80,25 @@ function getAllPosts(data) {
       alert(error.responseText);
     });
   }
+
+  
+  function checkLogin(data){
+    $.ajax({
+        type: "POST",
+        url: `${url}/php/login.php`,
+        data: data
+    }).then(({data}) => {
+        
+        
+    }).catch(error => {
+        console.log("ERROR", error);
+        alert(error.responseText);
+    })
+
+  }
+
+  $("#loginForm").on("submit", function(event) {
+    event.preventDefault();
+    const data = $(this).serialize();
+    checkLogin(data);
+  });

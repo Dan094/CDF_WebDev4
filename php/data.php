@@ -81,3 +81,15 @@ function deletePost($postsId) {
 }
 
 
+//checkes login
+function checkLogin($username, $password){
+  $sql= "
+  SELECT * FROM users 
+  WHERE username = $username AND password = $password
+  ";
+
+  $posts = runQuery($sql);
+
+  return $posts;
+
+}

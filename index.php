@@ -55,12 +55,16 @@
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <input id="password" type="password" class="validate">
-                            <label for="password">Password</label>
+                            <form id="loginForm">
+
+                                <label for="email">Email</label>
+                                <input id="email" type="email" class="validate">
+
+                                <input id="password" type="password" class="validate">
+                                <label for="password">Password</label>
+                                <button class="submit modal-close waves-effect waves-green btn-flat">Submit</button>
+                            </form>
+
                         </div>
                         <div class="row">
 
@@ -140,17 +144,9 @@
                     <div class="addCont col s3" data-aos="fade-left" data-aos-duration="1000"
                         style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 50px;">
 
-                        <div class="post col s9" data-aos="fade-left" data-aos-delay="0">
-                            <div
-                                style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                <a href="#"><img src="images/createBtn.svg" width="100px"></a>
-                                <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News
-                                    or Event</h4>
-                            </div>
-
-                        </div>
+                       
                     </div>
-                    
+
                     <div id="contentModal" class="modal">
 
                         <div class="modal-content">
@@ -166,7 +162,16 @@
 
                     </div>
                     <div class="sliderCont  ">
+                        
+                    <div class="post col s9" data-aos="fade-left" data-aos-delay="0">
+                            <div
+                                style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                                <a href="#"><img src="images/createBtn.svg" width="100px"></a>
+                                <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News
+                                    or Event</h4>
+                            </div>
 
+                        </div>
 
 
                         <div class="post hoverable" data-aos="fade-left" data-aos-delay="500">
