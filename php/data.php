@@ -37,16 +37,7 @@ function runQuery($sql) {
 }
 
 
-// returns a single associative array squeak
-function getSqueak($squeakId) {
-    $sql = "
-    SELECT id, message, username, like_count as likeCount FROM squeaks
-    WHERE deleted = false
-    WHERE id = $squeakId";
-    $squeaks = runQuery($sql);
-  
-    return $squeaks[0];
-  }
+
   
 
 // returns an associative array of all of the squeaks
@@ -64,10 +55,10 @@ function getAllPosts() {
 }
 
 // saves a new squeak to the database
-function saveNewPost($message, $username) {
+function saveNewPost($title, $content, $img, $link) {
     $sql ="
-    INSERT INTO posts(title, content, img, links, deleted)
-    VALUES('$title','$content','$img', '$link',false)
+    INSERT INTO posts(title, content, img, link, deleted)
+    VALUES('$title','$content','$img','$link',false)
     "
     ;
     $posts = runQuery($sql);

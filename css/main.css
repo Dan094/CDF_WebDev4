@@ -240,14 +240,13 @@ html {
 
     display: flex; 
     flex-direction: row; 
-     width: 100vw; 
+     
      padding:3rem;
 }
 
 .sliderCont:-webkit-scrollbar {
     display: none;
 }
-
 
 .hoverable{
     margin: 20px;
