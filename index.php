@@ -33,10 +33,10 @@
             </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="">Home</a></li>
-                <li><a href="Index.php#section5">Services</a></li>
-                <li><a href="Index.php#section3">News</a></li>
-                <li><a href="collapsible.html">Contact</a></li>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section4">Services</a></li>
+                <li><a href="#section3">News</a></li>
+                <li><a href="#section5">Contact</a></li>
                 <li><a class="waves-effect waves-light btn-large waves-effect waves-light btn modal-trigger"
                         data-target="modal1" class="btn modal-trigger" id="loginBtn"
                         style="background-color: rgb(181, 211, 61);font-weight:bold;">Login</a></li>
@@ -56,13 +56,11 @@
                     <div class="row">
                         <div class="input-field col s12">
                             <form id="loginForm">
+                                <input id="username" name="username" type="text" class="validate" placeholder="Username">
+                               
+                                <input id="password" name="password" type="password" class="validate" placeholder="Password">
 
-                                <label for="email">Email</label>
-                                <input id="email" type="email" class="validate">
-
-                                <input id="password" type="password" class="validate">
-                                <label for="password">Password</label>
-                                <button class="submit modal-close waves-effect waves-green btn-flat">Submit</button>
+                                
                             </form>
 
                         </div>
@@ -70,7 +68,7 @@
 
                         </div>
 
-                        <a class="waves-effect waves-light btn-large waves-effect waves-light btn modal-trigger"
+                        <a id="login" class="waves-effect waves-light btn-large waves-effect waves-light btn modal-trigger"
                             data-target="modal1"
                             style="background-color: rgb(181, 211, 61);font-weight:bold; width:100%;">Login</a>
                     </div>
@@ -144,7 +142,7 @@
                     <div class="addCont col s3" data-aos="fade-left" data-aos-duration="1000"
                         style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 50px;">
 
-                       
+
                     </div>
 
                     <div id="contentModal" class="modal">
@@ -162,11 +160,11 @@
 
                     </div>
                     <div class="sliderCont  ">
-                        
-                    <div class="post col s9" data-aos="fade-left" data-aos-delay="0">
+
+                        <div class="post col s9" data-aos="fade-left" data-aos-delay="0">
                             <div
                                 style="width:100%; height:100%; background-color:#B9B9B9; padding:10rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                <a href="#"><img src="images/createBtn.svg" width="100px"></a>
+                                <a href="#contentModal" class="modal-trigger" ><img src="images/createBtn.svg" width="100px"></a>
                                 <h4 style="color:#928F8F; font-size:2rem;text-align: center; width:12rem;"> Post a News
                                     or Event</h4>
                             </div>
@@ -174,7 +172,7 @@
                         </div>
 
 
-                        <div class="post hoverable" data-aos="fade-left" data-aos-delay="500">
+                      <!--  <div class="post hoverable" data-aos="fade-left" data-aos-delay="500">
                             <img src="images/delete_24px.svg" width="10px" class="deleteBtn">
                             <img class="img" src="images/post_img.jpg" width="100%">
                             <div class="desp">
@@ -288,6 +286,8 @@
 
                         </div>
 
+-->
+
                     </div>
 
 
@@ -391,7 +391,7 @@
     </div>
 
 
-    <div class="sec" id="section5">
+    <div class="sec" >
         <div class="container">
             <div class="row">
                 <div class="col s12">
@@ -431,7 +431,7 @@
                         </p>
                         <br><br>
 
-                        <div class="row">
+                        <div class="row" >
                             <div class="row">
                                 <div class="input-field col s10">
                                     <input id="first_name" type="text" class="validate">
@@ -479,7 +479,7 @@
                     </div>
 
                     <div class="col s6">
-                        <div class="mapouter">
+                        <div class="mapouter" id="section5">
                             <div class="gmap_canvas"><iframe width="500" height="450" id="gmap_canvas"
                                     src="https://maps.google.com/maps?q=350%20Michael%20Cowpland%20Dr%2C%20Glen%20Cairn%20-%20Kanata%20South%20Business%20Park%2C%20Ottawa%2C%20ON%20K2M%202W1%2C%20Canada&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>

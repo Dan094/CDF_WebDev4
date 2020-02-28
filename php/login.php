@@ -1,22 +1,27 @@
 <?php
+session_start();
 
 require_once('./data.php');
 
-if (!isset($_POST['username'])) {
-    http_response_code(400);
-    echo json_encode(["error" => "Must input a username"]);
-    exit();
-  }
+if (isset($_POST['username']) && isset($_POST['password'])){
+   
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
-if (!isset($_POST['password'])) {
-    http_response_code(400);
-    echo json_encode(["error" => "Must input a password"]);
-    exit();
-  }
+    
 
-  $username = $_POST['username'];
-  $password = $_POST['password'];
-    checkLogin($username,$password);
+      $user = json_encode($id[0][id]);
+
+    
+
+
+$_SESSION['username']= $username;
+$_SESSION['password']= $password;
+
+echo json_encode(['message'=>'Welcome!', 'session' => $_SESSION]);
+
+}
+
 
 
 header("Content-type: application/json");
